@@ -32,13 +32,10 @@ Make sure you have Python 3.7 or higher installed. You'll also need to install t
 git clone https://github.com/royanikseresht/AIBackgroundRemover.git
 cd AIBackgroundRemover
 
-```bash
 python3 -m venv venv
 source venv/bin/activate  # For Mac/Linux
 venv\Scripts\activate  # For Windows
 
-```bash
 pip install -r requirements.txt
 
-```bash
 streamlit run Home.py
